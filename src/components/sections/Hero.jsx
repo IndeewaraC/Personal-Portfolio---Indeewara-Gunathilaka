@@ -52,4 +52,13 @@ const Hero = ({ delay, className = '' }) => {
               e.target.nextSibling.style.display = 'block';
             }}
           />
-          <div classNam
+          <div className="hidden p-4">
+            Add <b>profile.jpg</b><br />to the <b>public/</b> folder
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+export default Hero;
