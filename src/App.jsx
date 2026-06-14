@@ -19,7 +19,7 @@ function App() {
   }, [isTechnical]);
 
   return (
-    <Router>
+    <Router basename="/Personal-Portfolio---Indeewara-Gunathilaka">
       <CommandPalette isTechnical={isTechnical} setIsTechnical={setIsTechnical} />
       
       <div className="flex flex-col md:flex-row min-h-screen bg-[#0f172a]">
