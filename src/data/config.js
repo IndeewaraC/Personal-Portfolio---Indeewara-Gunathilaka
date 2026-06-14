@@ -1,18 +1,16 @@
+import personalInfo from './personalInfo.json';
+
 export const personalData = {
   profile: {
     name: "Indeewara",
     title: "QA Engineer & Automation Expert",
     bio: "I build robust automation frameworks and ensure flawless product quality. Specializing in E2E testing, API validation, and Performance optimization for modern web applications.",
-    email: "hello@example.com",
-    availability: "Open to Opportunities",
-    location: "Remote / Hybrid",
-    timezone: "EST Timezone",
+    email: personalInfo.email,
+    availability: personalInfo.availability,
+    location: personalInfo.location,
+    timezone: personalInfo.timezone,
   },
-  links: {
-    resume: "#",
-    linkedin: "#",
-    github: "https://github.com/Indeewara"
-  },
+  links: personalInfo.links,
   skills: [
     { name: 'Playwright', icon: '🎭' },
     { name: 'Cypress', icon: '🌲' },
