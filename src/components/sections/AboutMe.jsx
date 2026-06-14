@@ -15,7 +15,7 @@ const AboutMe = ({ delay, className = '' }) => {
       <ul className="flex flex-col gap-3 m-0 p-0 list-none">
         <li className="flex items-center gap-3 text-white/90 text-[0.95rem]">
           <span className="text-xl shrink-0">🚀</span>
-          <span>6+ Years QA Automation Experience</span>
+          <span>4+ Years QA Automation Experience</span>
         </li>
         <li className="flex items-center gap-3 text-white/90 text-[0.95rem]">
           <span className="text-xl shrink-0">🛠️</span>

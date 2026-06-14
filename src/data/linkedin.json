@@ -18,7 +18,7 @@
     {
       "id": 1.5,
       "manual": true,
-      "company": "Sabbatical / Self-Directed",
+      "company": "Self-Directed",
       "role": "Career Break / Technical Upskilling",
       "duration": "Jan 2023 - Dec 2025",
       "description": [
@@ -191,106 +191,406 @@
     }
   ],
   "skills": [
-    { "id": 1, "name": "API Testing" },
-    { "id": 2, "name": "CI/CD" },
-    { "id": 3, "name": "Jenkins" },
-    { "id": 4, "name": "MCP (Multi Agent Protocol)" },
-    { "id": 5, "name": "Playwright CLI" },
-    { "id": 6, "name": "JavaScript" },
-    { "id": 7, "name": "Cucumber" },
-    { "id": 8, "name": "UI Testing" },
-    { "id": 9, "name": "Functional Testing" },
-    { "id": 10, "name": "Security Testing" },
-    { "id": 11, "name": "Behavior-Driven Development (BDD)" },
-    { "id": 12, "name": "Selenium" },
-    { "id": 13, "name": "24x7 Production Support" },
-    { "id": 14, "name": "EDI (Electronic Data Interchange)" },
-    { "id": 15, "name": "Help Desk Support" },
-    { "id": 16, "name": "Online Help" },
-    { "id": 17, "name": "System Monitoring" },
-    { "id": 18, "name": "SQL Database Administration" },
-    { "id": 19, "name": "Troubleshooting" },
-    { "id": 20, "name": "Cross-functional Collaborations" },
-    { "id": 21, "name": "Process documentation" },
-    { "id": 22, "name": "Stakeholder Management" },
-    { "id": 23, "name": "Wrike" },
-    { "id": 24, "name": "Software Project Management" },
-    { "id": 25, "name": "ERP Systems" },
-    { "id": 26, "name": "Cross-Browser Testing" },
-    { "id": 27, "name": "Jira" },
-    { "id": 28, "name": "KPI Reporting" },
-    { "id": 29, "name": "Regression Testing" },
-    { "id": 30, "name": "User Acceptance Testing" },
-    { "id": 31, "name": "Critical Thinking" },
-    { "id": 32, "name": "Ibm as400" },
-    { "id": 33, "name": "Warehouse Operations" },
-    { "id": 34, "name": "Inventory Management" },
-    { "id": 35, "name": "Logistics Management" },
-    { "id": 36, "name": "Data Entry" },
-    { "id": 37, "name": "Fast-Moving Consumer Goods (FMCG)" },
-    { "id": 38, "name": "IFS ERP" },
-    { "id": 39, "name": "E-commerce domain expertise" },
-    { "id": 40, "name": "Mobile cross-browser and cross-platform testing" },
-    { "id": 41, "name": "Payment gateway testing" },
-    { "id": 42, "name": "Load testing (JMeter)" },
-    { "id": 43, "name": "API testing (Postman)" },
-    { "id": 44, "name": "Test planning and execution" },
-    { "id": 45, "name": "Bug reporting and tracking" },
-    { "id": 46, "name": "Collaboration with development and product teams" },
-    { "id": 47, "name": "Quality assurance best practices" },
-    { "id": 48, "name": "Root Cause" },
-    { "id": 49, "name": "Organization Skills" },
-    { "id": 50, "name": "Customer Satisfaction" },
-    { "id": 51, "name": "Computer Hardware Troubleshooting" },
-    { "id": 52, "name": "Test Planning" },
-    { "id": 53, "name": "Attention to Detail" },
-    { "id": 54, "name": "E-Commerce" },
-    { "id": 55, "name": "Web Applications" },
-    { "id": 56, "name": "Application Support Services" },
-    { "id": 57, "name": "Customer Relationship Management (CRM)" },
-    { "id": 58, "name": "Customer Support" },
-    { "id": 59, "name": "Client Relations" },
-    { "id": 60, "name": "Selenium WebDriver" },
-    { "id": 61, "name": "Software Testing" },
-    { "id": 62, "name": "C#" },
-    { "id": 63, "name": "Manual Testing" },
-    { "id": 64, "name": "Test Automation" },
-    { "id": 65, "name": "Microsoft Office" },
-    { "id": 66, "name": "SQL" },
-    { "id": 67, "name": "MySQL" },
-    { "id": 68, "name": "Microsoft Excel" },
-    { "id": 69, "name": "Customer Service" },
-    { "id": 70, "name": "Team Leadership" },
-    { "id": 71, "name": "Business Analysis" },
-    { "id": 72, "name": "Business Support System (BSS)" },
-    { "id": 73, "name": "Enterprise Resource Planning (ERP)" },
-    { "id": 74, "name": "Project Management" },
-    { "id": 75, "name": "Electronic Commerce" },
-    { "id": 76, "name": "Teamwork" },
-    { "id": 77, "name": "Information Technology" },
-    { "id": 78, "name": "Databases" },
-    { "id": 79, "name": "Software Development" },
-    { "id": 80, "name": "Technical Support" },
-    { "id": 81, "name": "Java" },
-    { "id": 82, "name": "Networking" },
-    { "id": 83, "name": "Microsoft Azure" },
-    { "id": 84, "name": "Internet Information Services (IIS)" },
-    { "id": 85, "name": "Electronic Data Interchange (EDI)" },
-    { "id": 86, "name": "Microsoft SQL Server" },
-    { "id": 87, "name": "Software Installation" },
-    { "id": 88, "name": "Training" },
-    { "id": 89, "name": "Analytical Skills" },
-    { "id": 90, "name": "HTML" },
-    { "id": 91, "name": "Leadership" },
-    { "id": 92, "name": "Visual C#" },
-    { "id": 93, "name": "Business Analytics" },
-    { "id": 94, "name": "Visual Basic" },
-    { "id": 95, "name": "Programming" },
-    { "id": 96, "name": "Software Quality Assurance" },
-    { "id": 97, "name": "Software" },
-    { "id": 98, "name": "Team Management" },
-    { "id": 99, "name": "Service Desk" },
-    { "id": 100, "name": "Python (Programming Language)" }
+    {
+      "id": 1,
+      "name": "API Testing"
+    },
+    {
+      "id": 2,
+      "name": "CI/CD"
+    },
+    {
+      "id": 3,
+      "name": "Jenkins"
+    },
+    {
+      "id": 4,
+      "name": "MCP (Multi Agent Protocol)"
+    },
+    {
+      "id": 5,
+      "name": "Playwright CLI"
+    },
+    {
+      "id": 6,
+      "name": "JavaScript"
+    },
+    {
+      "id": 7,
+      "name": "Cucumber"
+    },
+    {
+      "id": 8,
+      "name": "UI Testing"
+    },
+    {
+      "id": 9,
+      "name": "Functional Testing"
+    },
+    {
+      "id": 10,
+      "name": "Security Testing"
+    },
+    {
+      "id": 11,
+      "name": "Behavior-Driven Development (BDD)"
+    },
+    {
+      "id": 12,
+      "name": "Selenium"
+    },
+    {
+      "id": 13,
+      "name": "24x7 Production Support"
+    },
+    {
+      "id": 14,
+      "name": "EDI (Electronic Data Interchange)"
+    },
+    {
+      "id": 15,
+      "name": "Help Desk Support"
+    },
+    {
+      "id": 16,
+      "name": "Online Help"
+    },
+    {
+      "id": 17,
+      "name": "System Monitoring"
+    },
+    {
+      "id": 18,
+      "name": "SQL Database Administration"
+    },
+    {
+      "id": 19,
+      "name": "Troubleshooting"
+    },
+    {
+      "id": 20,
+      "name": "Cross-functional Collaborations"
+    },
+    {
+      "id": 21,
+      "name": "Process documentation"
+    },
+    {
+      "id": 22,
+      "name": "Stakeholder Management"
+    },
+    {
+      "id": 23,
+      "name": "Wrike"
+    },
+    {
+      "id": 24,
+      "name": "Software Project Management"
+    },
+    {
+      "id": 25,
+      "name": "ERP Systems"
+    },
+    {
+      "id": 26,
+      "name": "Cross-Browser Testing"
+    },
+    {
+      "id": 27,
+      "name": "Jira"
+    },
+    {
+      "id": 28,
+      "name": "KPI Reporting"
+    },
+    {
+      "id": 29,
+      "name": "Regression Testing"
+    },
+    {
+      "id": 30,
+      "name": "User Acceptance Testing"
+    },
+    {
+      "id": 31,
+      "name": "Critical Thinking"
+    },
+    {
+      "id": 32,
+      "name": "Ibm as400"
+    },
+    {
+      "id": 33,
+      "name": "Warehouse Operations"
+    },
+    {
+      "id": 34,
+      "name": "Inventory Management"
+    },
+    {
+      "id": 35,
+      "name": "Logistics Management"
+    },
+    {
+      "id": 36,
+      "name": "Data Entry"
+    },
+    {
+      "id": 37,
+      "name": "Fast-Moving Consumer Goods (FMCG)"
+    },
+    {
+      "id": 38,
+      "name": "IFS ERP"
+    },
+    {
+      "id": 39,
+      "name": "E-commerce domain expertise"
+    },
+    {
+      "id": 40,
+      "name": "Mobile cross-browser and cross-platform testing"
+    },
+    {
+      "id": 41,
+      "name": "Payment gateway testing"
+    },
+    {
+      "id": 42,
+      "name": "Load testing (JMeter)"
+    },
+    {
+      "id": 43,
+      "name": "API testing (Postman)"
+    },
+    {
+      "id": 44,
+      "name": "Test planning and execution"
+    },
+    {
+      "id": 45,
+      "name": "Bug reporting and tracking"
+    },
+    {
+      "id": 46,
+      "name": "Collaboration with development and product teams"
+    },
+    {
+      "id": 47,
+      "name": "Quality assurance best practices"
+    },
+    {
+      "id": 48,
+      "name": "Root Cause"
+    },
+    {
+      "id": 49,
+      "name": "Organization Skills"
+    },
+    {
+      "id": 50,
+      "name": "Customer Satisfaction"
+    },
+    {
+      "id": 51,
+      "name": "Computer Hardware Troubleshooting"
+    },
+    {
+      "id": 52,
+      "name": "Test Planning"
+    },
+    {
+      "id": 53,
+      "name": "Attention to Detail"
+    },
+    {
+      "id": 54,
+      "name": "E-Commerce"
+    },
+    {
+      "id": 55,
+      "name": "Web Applications"
+    },
+    {
+      "id": 56,
+      "name": "Application Support Services"
+    },
+    {
+      "id": 57,
+      "name": "Customer Relationship Management (CRM)"
+    },
+    {
+      "id": 58,
+      "name": "Customer Support"
+    },
+    {
+      "id": 59,
+      "name": "Client Relations"
+    },
+    {
+      "id": 60,
+      "name": "Selenium WebDriver"
+    },
+    {
+      "id": 61,
+      "name": "Software Testing"
+    },
+    {
+      "id": 62,
+      "name": "C#"
+    },
+    {
+      "id": 63,
+      "name": "Manual Testing"
+    },
+    {
+      "id": 64,
+      "name": "Test Automation"
+    },
+    {
+      "id": 65,
+      "name": "Microsoft Office"
+    },
+    {
+      "id": 66,
+      "name": "SQL"
+    },
+    {
+      "id": 67,
+      "name": "MySQL"
+    },
+    {
+      "id": 68,
+      "name": "Microsoft Excel"
+    },
+    {
+      "id": 69,
+      "name": "Customer Service"
+    },
+    {
+      "id": 70,
+      "name": "Team Leadership"
+    },
+    {
+      "id": 71,
+      "name": "Business Analysis"
+    },
+    {
+      "id": 72,
+      "name": "Business Support System (BSS)"
+    },
+    {
+      "id": 73,
+      "name": "Enterprise Resource Planning (ERP)"
+    },
+    {
+      "id": 74,
+      "name": "Project Management"
+    },
+    {
+      "id": 75,
+      "name": "Electronic Commerce"
+    },
+    {
+      "id": 76,
+      "name": "Teamwork"
+    },
+    {
+      "id": 77,
+      "name": "Information Technology"
+    },
+    {
+      "id": 78,
+      "name": "Databases"
+    },
+    {
+      "id": 79,
+      "name": "Software Development"
+    },
+    {
+      "id": 80,
+      "name": "Technical Support"
+    },
+    {
+      "id": 81,
+      "name": "Java"
+    },
+    {
+      "id": 82,
+      "name": "Networking"
+    },
+    {
+      "id": 83,
+      "name": "Microsoft Azure"
+    },
+    {
+      "id": 84,
+      "name": "Internet Information Services (IIS)"
+    },
+    {
+      "id": 85,
+      "name": "Electronic Data Interchange (EDI)"
+    },
+    {
+      "id": 86,
+      "name": "Microsoft SQL Server"
+    },
+    {
+      "id": 87,
+      "name": "Software Installation"
+    },
+    {
+      "id": 88,
+      "name": "Training"
+    },
+    {
+      "id": 89,
+      "name": "Analytical Skills"
+    },
+    {
+      "id": 90,
+      "name": "HTML"
+    },
+    {
+      "id": 91,
+      "name": "Leadership"
+    },
+    {
+      "id": 92,
+      "name": "Visual C#"
+    },
+    {
+      "id": 93,
+      "name": "Business Analytics"
+    },
+    {
+      "id": 94,
+      "name": "Visual Basic"
+    },
+    {
+      "id": 95,
+      "name": "Programming"
+    },
+    {
+      "id": 96,
+      "name": "Software Quality Assurance"
+    },
+    {
+      "id": 97,
+      "name": "Software"
+    },
+    {
+      "id": 98,
+      "name": "Team Management"
+    },
+    {
+      "id": 99,
+      "name": "Service Desk"
+    },
+    {
+      "id": 100,
+      "name": "Python (Programming Language)"
+    }
   ],
   "testimonials": [
     {
