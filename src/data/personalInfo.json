@@ -1,0 +1,12 @@
+{
+  "email": "Indeewaragunathilaka@gmail.com",
+  "phone": "+1 (234) 567-890",
+  "availability": "Open to Opportunities",
+  "location": "Remote / Hybrid",
+  "timezone": "EST Timezone",
+  "links": {
+    "resume": "/resume.pdf",
+    "linkedin": "https://linkedin.com/in/indeewara",
+    "github": "https://github.com/IndeewaraC"
+  }
+}

@@ -1,0 +1,255 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* === Premium Bento Box Theme === */
+:root {
+  --bg-main: #0a0a0f;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --border-card: rgba(255, 255, 255, 0.08);
+  --text-primary: #f0f0f5;
+  --text-secondary: #9ba1a6;
+  --accent-color: #6366f1; /* Indigo */
+  --accent-glow: rgba(99, 102, 241, 0.2);
+  
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  min-height: 100vh;
+  background-image: radial-gradient(circle at 50% 0%, #1a1a2e 0%, var(--bg-main) 70%);
+}
+
+/* === Typography === */
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+p {
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.highlight {
+  color: var(--accent-color);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* === Bento Grid Layout (Removed) === */
+
+/* === Specific Box Content Styles === */
+
+/* Hero Box */
+.hero-box {
+  justify-content: center;
+}
+.hero-box h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 0.5rem;
+}
+.hero-box h2 {
+  color: var(--text-secondary);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-primary {
+  background: var(--text-primary);
+  color: var(--bg-main);
+  border: none;
+}
+.btn-primary:hover {
+  background: #ffffff;
+  transform: scale(1.05);
+}
+.btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-card);
+}
+.btn-secondary:hover {
+  background: var(--bg-card);
+  border-color: rgba(255,255,255,0.2);
+}
+
+/* Skills Box */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+.skill-item {
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  padding: 12px 5px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+.skill-item:hover {
+  background: rgba(255,255,255,0.1);
+  color: var(--text-primary);
+}
+.skill-icon {
+  font-size: 1.5rem;
+}
+
+/* Projects Area */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+}
+.project-card {
+  background: rgba(0,0,0,0.2);
+  border-radius: 16px;
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.project-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+.project-card p {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+.badge {
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  background: rgba(99, 102, 241, 0.15);
+  color: #a5b4fc;
+  border-radius: 20px;
+}
+
+/* Status Box */
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.pulse-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #10b981; /* Emerald green */
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+.contact-box {
+  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(99, 102, 241, 0.1) 100%);
+}
+.contact-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* === Technical Mode Overrides === */
+body.technical-mode {
+  --bg-main: #000000;
+  --bg-card: rgba(0, 0, 0, 0.5);
+  --border-card: #333333;
+  --text-primary: #00ff00; /* Hacker Green */
+  --text-secondary: #008800;
+  --accent-color: #50fa7b;
+  --accent-glow: transparent;
+  --font-main: 'Courier New', Courier, monospace;
+  background-image: none;
+}
+
+body.technical-mode .bento-box {
+  border-radius: 0;
+  border: 1px solid #333;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+body.technical-mode .bento-box:hover {
+  border-color: #00ff00;
+  box-shadow: none;
+  transform: none;
+}
+
+body.technical-mode h1, 
+body.technical-mode h2, 
+body.technical-mode h3, 
+body.technical-mode h4 {
+  font-weight: normal;
+}
+
+body.technical-mode h3::before {
+  content: "$ ";
+  color: #00ff00;
+}
+
+body.technical-mode .btn-primary {
+  background: transparent;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  border-radius: 0;
+}
+
+body.technical-mode .btn-secondary {
+  background: transparent;
+  color: #008800;
+  border: 1px dashed #008800;
+  border-radius: 0;
+}
+
+body.technical-mode .btn-primary:hover,
+body.technical-mode .btn-secondary:hover {
+  background: #002200;
+  transform: none;
+}
