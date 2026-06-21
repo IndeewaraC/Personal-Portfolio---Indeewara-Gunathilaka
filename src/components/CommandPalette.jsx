@@ -23,13 +23,21 @@ const CommandPalette = ({ isTechnical, setIsTechnical }) => {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
+  const handleScroll = (id) => {
+    navigate('/');
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) element.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  };
+
   const commands = [
     { id: 1, name: 'Toggle Technical Mode', action: () => setIsTechnical(!isTechnical), icon: '💻' },
-    { id: 2, name: 'Go to About', action: () => { navigate('/'); window.location.hash = '#about'; }, icon: '🏠' },
-    { id: 3, name: 'View Experience', action: () => { navigate('/'); window.location.hash = '#experience'; }, icon: '💼' },
-    { id: 4, name: 'View Projects', action: () => { navigate('/'); window.location.hash = '#projects'; }, icon: '🚀' },
-    { id: 6, name: 'View Education', action: () => { navigate('/'); window.location.hash = '#education'; }, icon: '🎓' },
-    { id: 7, name: 'View Certifications', action: () => { navigate('/'); window.location.hash = '#certifications'; }, icon: '📜' },
+    { id: 2, name: 'Go to About', action: () => handleScroll('about'), icon: '🏠' },
+    { id: 3, name: 'View Experience', action: () => handleScroll('experience'), icon: '💼' },
+    { id: 4, name: 'View Projects', action: () => handleScroll('projects'), icon: '🚀' },
+    { id: 6, name: 'View Education', action: () => handleScroll('education'), icon: '🎓' },
+    { id: 7, name: 'View Certifications', action: () => handleScroll('certifications'), icon: '📜' },
     { id: 8, name: 'Download Resume', action: () => window.open(personalData.links.resume, '_blank'), icon: '📄' },
     { id: 9, name: 'View LinkedIn', action: () => window.open(personalData.links.linkedin, '_blank'), icon: '🔗' },
     { id: 10, name: 'Email Me', action: () => window.location.href = `mailto:${personalData.profile.email}`, icon: '✉️' },
