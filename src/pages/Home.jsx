@@ -10,7 +10,7 @@ import CertificationsList from '../components/sections/CertificationsList';
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-24 max-w-5xl mx-auto w-full">
+    <div className="flex flex-col gap-12 md:gap-24 max-w-5xl mx-auto w-full">
       {/* Helper text for Command Palette */}
       <div className="hidden md:block mb-2 text-sm text-gray-400">
         Press <kbd className="bg-gray-800 px-1.5 py-0.5 rounded text-gray-300 border border-gray-700">Ctrl+K</kbd> for Command Palette
