@@ -87,30 +87,23 @@ const Sidebar = () => {
 
           {/* Navigation Links */}
           <nav className="flex flex-col gap-2 font-semibold text-sm uppercase tracking-wider w-full mb-auto">
-            <a href="#about" onClick={closeSidebar} className={getLinkClasses('about')}>
-              About Me
-            </a>
-            <a href="#experience" onClick={closeSidebar} className={getLinkClasses('experience')}>
-              Experience
-            </a>
-            <a href="#projects" onClick={closeSidebar} className={getLinkClasses('projects')}>
-              Projects
-            </a>
-            <a href="#education" onClick={closeSidebar} className={getLinkClasses('education')}>
-              Education
-            </a>
-            <a href="#certifications" onClick={closeSidebar} className={getLinkClasses('certifications')}>
-              Certifications
-            </a>
-            <a href="#tech-stack" onClick={closeSidebar} className={getLinkClasses('tech-stack')}>
-              Expertise
-            </a>
-            <a href="#testimonials" onClick={closeSidebar} className={getLinkClasses('testimonials')}>
-              Testimonials
-            </a>
-            <a href="#contact" onClick={closeSidebar} className={getLinkClasses('contact')}>
-              Contact
-            </a>
+            {['about', 'experience', 'projects', 'education', 'certifications', 'tech-stack', 'testimonials', 'contact'].map((section) => (
+              <a
+                key={section}
+                href={`#${section}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  closeSidebar();
+                  const element = document.getElementById(section);
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className={getLinkClasses(section)}
+              >
+                {section === 'tech-stack' ? 'Expertise' : section.replace('-', ' ')}
+              </a>
+            ))}
           </nav>
 
           {/* Social Links Footer */}
