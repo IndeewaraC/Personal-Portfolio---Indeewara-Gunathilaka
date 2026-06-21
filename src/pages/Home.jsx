@@ -51,6 +51,12 @@ const Home = () => {
         <h2 className="text-3xl font-bold mb-8 text-white">Get In Touch</h2>
         <Contact delay={0.8} />
       </section>
+
+      {/* Footer */}
+      <footer className="w-full text-center py-8 border-t border-indigo-500/20 mt-4 text-white/50 text-sm">
+        <p>© {new Date().getFullYear()} Indeewara Gunathilaka. All rights reserved.</p>
+        <p className="mt-2">Last Modified: {__BUILD_DATE__}</p>
+      </footer>
     </div>
   );
 };
