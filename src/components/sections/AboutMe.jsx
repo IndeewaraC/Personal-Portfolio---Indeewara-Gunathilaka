@@ -12,9 +12,11 @@ const AboutMe = ({ delay, className = '' }) => {
     >
       <h3 className="text-xl font-semibold mb-1 text-white">About Me</h3>
 
-      <p className="text-white/80 leading-relaxed text-[0.95rem] mb-2 text-justify">
-        I am a Software Quality Assurance Engineer and Application Support Specialist dedicated to driving software excellence through robust automation and proactive defect management. Combining a Master of Information Technology with hands-on expertise in validating complex enterprise systems—including AI-driven conversational platforms—I specialize in bridging the gap between end-user needs and technical execution. By championing a "shift-left" testing approach, I ensure quality is engineered from the ground up, mitigating risks early in the software development lifecycle (SDLC) and maximizing system reliability.
-      </p>
+      <div className="bg-indigo-900/20 border border-indigo-500/20 rounded-xl p-6 mb-6 shadow-lg backdrop-blur-sm">
+        <p className="text-white/90 leading-loose text-[0.95rem] text-justify">
+          I am a <span className="text-indigo-300 font-medium">Software Quality Assurance Engineer</span> and <span className="text-indigo-300 font-medium">Application Support Specialist</span> dedicated to driving software excellence through robust automation and proactive defect management. Combining a Master of Information Technology with hands on expertise in validating complex enterprise systems including <span className="text-indigo-300 font-medium">AI driven conversational platforms</span>, I specialize in bridging the gap between end user needs and technical execution. By championing a <span className="text-indigo-300 font-medium">shift left testing approach</span>, I ensure quality is engineered from the ground up, mitigating risks early in the software development lifecycle (SDLC) and maximizing system reliability.
+        </p>
+      </div>
 
       <ul className="flex flex-col gap-3 m-0 p-0 list-none">
         <li className="flex items-center gap-3 text-white/90 text-[0.95rem]">
