@@ -16,38 +16,38 @@ const Home = () => {
         Press <kbd className="bg-gray-800 px-1.5 py-0.5 rounded text-gray-300 border border-gray-700">Ctrl+K</kbd> for Command Palette
       </div>
 
-      <section id="about" className="pb-16 pt-8">
+      <section id="about" className="scroll-mt-24 pb-16 pt-8">
         <Hero delay={0.1} className="mb-16" />
         <AboutMe delay={0.15} />
       </section>
 
-      <section id="experience" className="pb-16 pt-8">
+      <section id="experience" className="scroll-mt-24 pb-16 pt-8">
         <ExperienceTimeline delay={0.2} />
       </section>
 
-      <section id="projects" className="pb-16 pt-8">
+      <section id="projects" className="scroll-mt-24 pb-16 pt-8">
         <ProjectsList delay={0.3} />
       </section>
 
-      <section id="education" className="pb-16 pt-8">
+      <section id="education" className="scroll-mt-24 pb-16 pt-8">
         <EducationList delay={0.4} />
       </section>
 
-      <section id="certifications" className="pb-16 pt-8">
+      <section id="certifications" className="scroll-mt-24 pb-16 pt-8">
         <CertificationsList delay={0.5} />
       </section>
 
-      <section id="tech-stack" className="pb-16 pt-8 border-b border-white/10">
+      <section id="tech-stack" className="scroll-mt-24 pb-16 pt-8 border-b border-white/10">
         <h2 className="text-3xl font-bold mb-8 text-white">Technical Stack & Expertise</h2>
         <Expertise delay={0.6} />
       </section>
 
-      <section id="testimonials" className="pb-16 pt-8">
+      <section id="testimonials" className="scroll-mt-24 pb-16 pt-8">
         <h2 className="text-3xl font-bold mb-8 text-white">Testimonials</h2>
         <Testimonials delay={0.7} />
       </section>
 
-      <section id="contact" className="pb-16 pt-8">
+      <section id="contact" className="scroll-mt-24 pb-16 pt-8">
         <h2 className="text-3xl font-bold mb-8 text-white">Get In Touch</h2>
         <Contact delay={0.8} />
       </section>
