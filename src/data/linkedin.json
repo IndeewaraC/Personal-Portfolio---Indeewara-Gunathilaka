@@ -123,7 +123,6 @@
         "Streamlined testing processes and improved accuracy by designing and executing automated test cases with Selenium WebDriver.",
         "Ensured system scalability and reliability under high traffic conditions by conducting thorough Load Testing using JMeter."
       ],
-      "githubUrl": "https://github.com/IndeewaraC/LiveAquaria-Azure-Migration-QA",
       "duration": "Jan 2021 - Mar 2021"
     },
     {
@@ -136,7 +135,6 @@
         "Verified seamless communication between Azure-based components by conducting thorough API testing using Postman.",
         "Evaluated system performance and guaranteed reliability under high traffic conditions through rigorous stress and load testing with JMeter."
       ],
-      "githubUrl": "https://github.com/IndeewaraC/Cognitive-Search-Testing",
       "duration": "Jan 2021 - Jan 2022"
     },
     {
@@ -149,18 +147,13 @@
         "Secured system stability under high traffic by performing rigorous stress testing and collaborating with developers for rapid bug resolution.",
         "Reduced long-term maintenance costs by consolidating updates into a single responsive platform, positioning the website for future technological growth."
       ],
-      "githubUrl": "https://github.com/IndeewaraC/Unified-Responsive-Design-QA",
       "duration": "Jan 2021 - Jan 2022"
     },
     {
       "id": 4,
-      "title": "FedEx address verification API integration",
-      "organization": "LiveAquaria",
-      "description": [
-        "Minimized unusual shipping cost deductions and improved cost accuracy by integrating the FedEx address verification API for LiveAquaria.com.",
-        "Validated backend and frontend API communication to ensure exact US shipping address verification and reliable customer checkout experiences."
-      ],
-      "githubUrl": "https://github.com/IndeewaraC/FedEx-API-Integration-Testing",
+      "title": "FedEx address verification API integration to quick address pro service migration",
+      "organization": "",
+      "description": "Instead of continuing quick address pro service, organization decided to continue with FedEx address verification API. FedEx was the primary shipping partner of the Liveaquaria.com e-commerce web application. This project helps to minimize the unusual deductions of the shipping cost from customer or additional shipping cost to the organization my getting exact shipping address verification and cost in united states of America.",
       "duration": "Mar 2021 - Apr 2021"
     },
     {
@@ -172,21 +165,13 @@
         "Verified end-to-end data flow by testing order placements from the eCommerce application through to the ERP product database.",
         "Ensured precise data synchronization by validating service scheduler timers and executing comprehensive database and ERP verification testing."
       ],
-      "githubUrl": "https://github.com/IndeewaraC/Vendor-Aggregation-API-Testing",
       "duration": "Jun 2021 - Jul 2021"
     },
     {
       "id": 6,
-      "title": "LLM Vulnerability & Prompt Injection Test Suite",
-      "organization": "Freelance",
-      "description": [
-        "Architected a comprehensive, data-driven automation suite using Playwright to validate the behavior, security, and UI integration of an enterprise AI agent.",
-        "Integrated AI-assisted coding tools including VS Code, Claude Code, and Antigravity with Gemini Pro to accelerate framework development and test script generation.",
-        "Implemented a robust CI/CD pipeline using GitHub Actions to automatically run the Playwright test suite on every commit, ensuring continuous security validation.",
-        "Engineered automated workflows to simulate multi-turn conversational JavaScript chat inputs and systematically capture AI responses for strict validation.",
-        "Prioritized AI security and mitigated prompt injection vulnerabilities by designing dynamic test data strategies to challenge platform guardrails."
-      ],
-      "githubUrl": "https://github.com/IndeewaraC/Playwright-LLM-Security-Suite",
+      "title": "LLM Vulnerability & Prompt Injection Test Suite -Phase 01",
+      "organization": "",
+      "description": "Architected and developed a comprehensive, data-driven automation suite using Playwright to validate the behavior, security, and UI integration of an enterprise AI agent platform. Engineered automated workflows to simulate complex, multi-turn conversational JavaScript chat inputs and systematically capture AI responses for validation. Designed a dynamic test data strategy to feed diverse conversational scenarios, ensuring all platform safety guardrails and business logic validations function as intended. Spearheaded AI security testing initiatives, heavily prioritizing the identification and mitigation of prompt injection vulnerabilities.",
       "duration": "Jan 2026 -"
     }
   ],
@@ -596,57 +581,43 @@
     {
       "id": 1,
       "name": "Kaushala Rajakaruna",
-      "role": "Senior QA Lead/Asst Manager",
-      "linkedinUrl": "https://www.linkedin.com/in/kaushala-rajakaruna/",
-      "quote": "He consistently demonstrated strong ownership of his work and delivered high-quality results. I can confidently say that he will be a valuable asset to any organization.",
+      "role": "Senior Software QA Lead / Asst Manager",
       "text": "Indeewara Gunathilaka who worked in my QA Team - I found him to be an exceptionally well-organized and highly dependable QA engineer. He consistently demonstrated strong ownership of his work and delivered high-quality results, even under tight timelines and pressure.  What truly sets indeewara apart is his out-of-the-box thinking. He doesn’t just test what is given — he challenges assumptions, anticipates risks, and identifies edge cases that significantly improve product quality. His analytical mindset and attention to detail helped the team prevent critical defects and improve overall system stability. He is also a very collaborative team member who communicates clearly, supports others, and contributes positively to team morale. Whether mentoring juniors, coordinating with developers, or driving test strategy, Indeewara handled responsibilities with maturity and professionalism. I can confidently say that he is a very strong resource and will be a valuable asset to any organization."
     },
     {
       "id": 2,
       "name": "Mohan Abeysekera",
-      "role": "Software Engineer | EDI Integration | Full-Stack Development | Data Visualization",
-      "linkedinUrl": "https://www.linkedin.com/in/mohan-abeysekera-b6963a45/",
-      "quote": "A highly dependable and detail-oriented professional who consistently demonstrated exceptional problem-solving and teamwork skills.",
+      "role": "Associate Tech Lead",
       "text": "I had the pleasure of managing Indeewara Gunathilaka during his time as an Application Support Specialist at Teknowledge Shared Services. Indeewara is a highly dependable and detail-oriented professional who consistently demonstrated exceptional problem-solving and teamwork skills throughout his tenure.  He played a key role in minimizing production downtime by quickly identifying issues, implementing immediate workarounds, and coordinating effectively with development teams across the US, Thailand, and Sri Lanka to ensure timely resolutions. Indeewara also made a lasting impact by improving our support efficiency, he trained junior analysts and helped establish new standard operating procedures that significantly reduced ticket resolution time.  His technical expertise, proactive communication, and commitment to quality made him a vital member of our support operations. Indeewara consistently went above and beyond to ensure system stability and customer satisfaction, even during high-pressure situations.  I highly recommend Indeewara Gunathilaka for any technical or support engineering role. His dedication, analytical mindset, and collaborative nature would make him an asset to any organization."
     },
     {
       "id": 3,
       "name": "Danuka Opatha",
-      "role": "IT Project Manager | Project Coordinator",
-      "linkedinUrl": "https://www.linkedin.com/in/dhanukaopatha/",
-      "quote": "Indeewara’s combination of technical knowledge, adaptability, and team-oriented mindset makes him a true asset to any organization.",
+      "role": "Technology Sales Representative",
       "text": "I had the privilege of managing Indeewara Gunathilaka at TeKnowledge Shared Services, first in his role as an Application Support Specialist and later as a QA Engineer. Having worked with him across these two capacities, I’ve seen firsthand how adaptable, dedicated, and growth-driven he is.  As an Application Support Specialist, Indeewara demonstrated excellent problem-solving skills, strong communication with stakeholders, and an unwavering commitment to resolving issues efficiently. His ability to understand business needs and provide practical solutions quickly made him a reliable go-to person for the team.  When he transitioned into QA Engineering, he took on the challenge with the same enthusiasm and professionalism. He quickly built expertise in testing methodologies, quality assurance practices, and worked collaboratively with developers to ensure smooth and successful project deliveries. As his Project Manager, I was impressed by his attention to detail, structured approach to testing, and his continuous drive to improve processes.  Indeewara’s combination of technical knowledge, adaptability, and team-oriented mindset makes him a true asset to any organization. I wholeheartedly recommend him for any role that requires both technical skill and collaborative spirit."
     },
     {
       "id": 4,
       "name": "Rachini Perera",
-      "role": "Lead Software Engineer - Quality Assurance at IFS - MSc | BSc | ISTQB CT-FL | ISTQB CT-AL TM",
-      "linkedinUrl": "https://www.linkedin.com/in/rachini-perera-496141a7/",
-      "quote": "I have been impressed by his thorough, creative approach to his work.",
+      "role": "Lead Software Quality Assurance Engineer",
       "text": "Indeewara has always been a great resource to work with. In the time that i have worked with Indeewara, i have been impressed by his thorough, creative approach of his work. I consider him as a good asset."
     },
     {
       "id": 5,
       "name": "Pasi Howpage",
-      "role": "Software Engineering | Application Support Engineer",
-      "linkedinUrl": "https://www.linkedin.com/in/pasihowpage/",
-      "quote": "I was impressed by Indeewara’s ability to handle any situation calmly and patiently, even with the toughest projects.",
+      "role": "Freelance Application Support Analyst",
       "text": "I have had the pleasure of working for over 2 years with Indeewara at Tekss in many different project teams. And also, I was impressed by Indeewara’s ability to handle any situation calmly and patiently, even with the toughest projects. This natural skill of his has helped to my development career"
     },
     {
       "id": 6,
       "name": "Buddika Weerasinghe",
-      "role": "Tech Lead at Westpay AB",
-      "linkedinUrl": "https://www.linkedin.com/in/buddika99/",
-      "quote": "Indeewara does not shy away from new challenges... All of these qualities make him a very good team player, a friend, which we always can depend on.",
+      "role": "Tech Lead",
       "text": "Indeewara is a highly talented person who always face challenges with a can-do attitude. He has a very good understanding on the entire software development process which helps him to identify and prioritize task accordingly to give a maximum output when needed. Most of all, what I do admire is his personality and attitude. Indeewara does not shy away from new challenges, even though they put him out of his comfort zone. All of these qualities makes him a very good team player, a friend, which we always can depend on."
     },
     {
       "id": 7,
       "name": "vidya prasad",
-      "role": "Senior Quality Assurance Engineer at Bridge BSS",
-      "linkedinUrl": "https://www.linkedin.com/in/vidya-prasad-00577a66/",
-      "quote": "He has an enterprising thought process and nature that can think out of the box.",
+      "role": "Student",
       "text": "Indeewara Gunathilaka is a efficient employee and help me to coverup my task also like reviewing and analyzing the system specific ,executing test cases .He is so skillfull .He has an enterprising thought process and nature that can think out of the box.As a summary indeewara is avery talanted and dedicated employee I recommended he as a senior QA engineer position in your company."
     }
   ],
