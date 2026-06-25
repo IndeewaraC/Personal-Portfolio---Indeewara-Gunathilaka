@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://indeewarac.github.io/Personal-Portfolio---Indeewara-Gunathilaka/sitemap.xml
