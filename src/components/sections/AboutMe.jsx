@@ -25,6 +25,10 @@ const AboutMe = ({ delay, className = '' }) => {
           <span>2+ Years QA Automation Experience</span>
         </li>
         <li className="flex items-center gap-3 text-white/90 text-[0.95rem]">
+          <span className="text-xl shrink-0" aria-hidden="true">📋</span>
+          <span>4+ Years Manual Testing Experience</span>
+        </li>
+        <li className="flex items-center gap-3 text-white/90 text-[0.95rem]">
           <span className="text-xl shrink-0" aria-hidden="true">🛠️</span>
           <span itemProp="knowsAbout">Modern Test Frameworks (Playwright, Cypress)</span>
         </li>
