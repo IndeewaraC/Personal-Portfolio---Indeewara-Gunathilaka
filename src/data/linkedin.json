@@ -172,7 +172,7 @@
       "title": "LLM Vulnerability & Prompt Injection Test Suite -Phase 01",
       "organization": "",
       "description": "Architected and developed a comprehensive, data-driven automation suite using Playwright to validate the behavior, security, and UI integration of an enterprise AI agent platform. Engineered automated workflows to simulate complex, multi-turn conversational JavaScript chat inputs and systematically capture AI responses for validation. Designed a dynamic test data strategy to feed diverse conversational scenarios, ensuring all platform safety guardrails and business logic validations function as intended. Spearheaded AI security testing initiatives, heavily prioritizing the identification and mitigation of prompt injection vulnerabilities.",
-      "duration": "Jan 2026 -"
+      "duration": "Jan 2026 - Sep 2026"
     }
   ],
   "skills": [
